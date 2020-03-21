@@ -1,0 +1,21 @@
+{
+  "name": "10 Bis randomizer",
+  "description": "Random pick 10bis resturant",
+  "version": "2.0",
+  "permissions": [
+    "activeTab"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": false
+  },
+  "icons": {
+    "96": "icon.png"
+  },
+  "browser_action": {
+    "default_title": "Random pick 10bis resturant!"
+  },
+  "manifest_version": 2
+}
